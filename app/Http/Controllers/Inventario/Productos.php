@@ -4,8 +4,7 @@ namespace App\Http\Controllers\Inventario;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Producto; //poner obligatorio esta libreria del modelo *Productos*
-use App\Models\Categoria;
+use App\Models\Producto; 
 
 
 class Productos extends Controller
@@ -77,14 +76,7 @@ class Productos extends Controller
 
         }
 
-
-       
-
-
-
     public function index(){
-       
-        
         //Consulta con join
         $productos = DB::table('productos as pro')
         
@@ -103,8 +95,5 @@ class Productos extends Controller
                 $producto = Producto::findOrFail($id);
                 
                 return view('inventario.productos.detalle',compact('producto'));
-        
-        
-            }
-        
+            }    
 }

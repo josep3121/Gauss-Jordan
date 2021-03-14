@@ -15,7 +15,11 @@
         <div class="form-outline mb-4">
           <input type="number" max='10' min='2' name="numero" id="numero" class="form-control" />
           <br>
-          <label class="form-label" for="form3Example3">Ingrese número de ecuaciones y variables que va a resolver en el sistema</label>
+          <label class="form-label" for="form3Example3">
+            <h4>
+              Ingrese número de ecuaciones y variables que va a resolver en el sistema
+            </h4>
+          </label>
         </div>
         <!-- Submit button -->
         <button type="submit" class="btn btn-success">Iniciar</button>

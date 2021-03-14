@@ -25,27 +25,27 @@
                   </li>
                           
                   <li>
-                    <a  href="{{ url('/clientes') }}"><i class="fa fa-bars"></i><span>Problema</span></a>
+                    <a  href="{{ url('/escrito/problema') }}"><i class="fa fa-bars"></i><span>Problema</span></a>
                   </li>
 
                   <li>
-                    <a href="{{ url('/categorias') }}"><i class="fa fa-bars"></i><span>Objetivos</span></a>
+                    <a href="{{ url('/escrito/objetivos') }}"><i class="fa fa-bars"></i><span>Objetivos</span></a>
                   </li>
 
                   <li>
-                    <a href="{{ url('/productos') }}"><i class="fa fa-bars"></i><span>Justificación</span></a>
+                    <a href="{{ url('/escrito/justificacion') }}"><i class="fa fa-bars"></i><span>Justificación</span></a>
                   </li>
 
                   <li>
-                    <a href="{{ url('/descripcion') }}"><i class="fa fa-bars"></i><span>Metodología</span></a>
+                    <a href="{{ url('/escrito/metodologia') }}"><i class="fa fa-bars"></i><span>Metodología</span></a>
                   </li>
 
                   <li>
-                    <a href="usuarios.php"><i class="fa fa-bars"></i><span>Desarrollo</span></a>
+                    <a href="{{ url('/escrito/desarrollo') }}"><i class="fa fa-bars"></i><span>Desarrollo</span></a>
                   </li>
 
                   <li>
-                    <a href="usuarios.php"><i class="fa fa-bars"></i><span>Conclusiones</span></a>
+                    <a href="{{ url('/escrito/conclusiones') }}"><i class="fa fa-bars"></i><span>Conclusiones</span></a>
                   </li>
 
                   <li>
