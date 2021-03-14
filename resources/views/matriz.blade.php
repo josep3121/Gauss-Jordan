@@ -5,14 +5,19 @@
 <br>
     <h1 style="color: black"> MATRIZ A RESOLVER CON GAUSS JORDÁN </h1>
     <br><br>
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
+    
             <form action="{{url('/operar')}}" method='POST'>
                 @csrf
                 @for($i=1;$i<=$pro;$i++) <div class="row">
-                    @for($j=0;$j<=$pro;$j++) <div class="col-2">
-                        <input type="number" name="valor_{{$i}}_{{$j}}" id="numero" class="form-control" /><br>
+                    @for($j=0;$j<=$pro;$j++) <div class="col-1">
+                        @if($j<$pro)
+                            <input type="number"  name="valor_{{$i}}_{{$j}}" id="numero" class="form-control" placeholder="X{{$j+1}}"/>
+                        
+                         @endif
+                         @if($j==$pro)
+                            <input type="number"  name="valor_{{$i}}_{{$j}}" id="numero" class="form-control" placeholder="Resultado"/>
+                        
+                         @endif
         </div>
         @endfor
     </div>
@@ -27,7 +32,6 @@
 </div>
 
 <div class="col-md-3"></div>
-</div>
-</div>
+
 
 @stop
