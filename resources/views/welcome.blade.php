@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 @extends('layout.master')
 @section('content')
 
@@ -14,7 +13,6 @@
                     <div class="card text-left">
                         <div class="card-header" style="color: black"><strong>Introducción</strong></div>
                         <div class="card-body">
-
                             <div class="caption">
                                 <p class="pservices text-justify">
                                     Hoy en día, la solución de los sistemas de ecuaciones lineales encuentra una amplia aplicación tanto en la ciencia como en la tecnología. En particular, se puede afirmar, que en cualquier rama de la ingeniería existe al menos una aplicación que requiera del planteamiento y solución de tales sistemas. Actualmente existen muchas situaciones en donde se busca resolver un sistema de ecuaciones lineales por un método más sencillo, optando por el método de Gauss Jordán, el cual es más fácil de desarrollar pues solo se apoya en multiplicar filas y columnas para obtener una matriz identidad, utilizando solo operaciones básicas como la suma, la división y la resta, obteniendo directamente al resultado de las variables.

@@ -3,15 +3,12 @@
 <br>
 <br>
 <div class="container" align="center">
-<h1 style="color: black"> DETERMINAR GAUSS JORDÁN PARA EL SISTEMA DE ECUACIONES LINEALES </h1>
+  <h1 style="color: black"> DETERMINAR GAUSS JORDÁN PARA EL SISTEMA DE ECUACIONES LINEALES </h1>
   <div class="row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
       <form action="{{url('/matriz')}}" method="GET">
-        <!-- 2 column grid layout with text inputs for the first and last names -->
-    
         <br>
-
         <div class="form-outline mb-4">
           <input type="number" max='10' min='2' name="numero" id="numero" class="form-control" />
           <br>

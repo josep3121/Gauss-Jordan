@@ -66,6 +66,7 @@
                             <a>Dánica María López Ruano</a><br>
                             <a>Sebastián Alexander Vallejo Coral</a>
                         </li>
+                        <br>
                     </ul>
                 </div>
             </div>
