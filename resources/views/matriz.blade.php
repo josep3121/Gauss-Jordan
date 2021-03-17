@@ -25,6 +25,7 @@
                 <input type="hidden" value='{{$pro}}' name="cantidad">
 
                 <button type="reset" class="btn btn-warning">Limpiar</button>
+                
                 <button type="submit" class="btn btn-success">Resolver</button><br><br>
                 <a href="javascript: history.go(-1)" role="button" class="boton_personalizado_1">Volver</a>
             </form>

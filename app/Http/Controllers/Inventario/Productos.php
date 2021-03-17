@@ -40,6 +40,15 @@ class Productos extends Controller
                         if($i>$j)
                         {
                                 // dividimos cada campo del arreglo
+                                if($arreglo[$j][$j]==0){
+                                        
+                                         die("El sistema de Ecuaciones No tiene solucion Unica");
+                                         
+                                       
+                                }
+                        
+                                //code...
+                        
                                 $division=$arreglo[$i][$j]/$arreglo[$j][$j];
                                 
                                 for($k=0;$k<=$regulador;$k++)
@@ -49,6 +58,9 @@ class Productos extends Controller
                                         
                                 }
                         }
+                   
+                   
+
                 }
         }
 
@@ -61,6 +73,9 @@ class Productos extends Controller
                         $total=$total+$arreglo[$i][$j]*$x[$j];
                 }
                 //capturamos valores de las variables
+                if($arreglo[$i][$i]==0){
+                        die("El sistema de Ecuaciones No tiene solucion Unica");
+                }
                 $x[$i]=($arreglo[$i][$regulador]-$total)/$arreglo[$i][$i];
         }
         
@@ -76,24 +91,7 @@ class Productos extends Controller
 
         }
 
-    public function index(){
-        //Consulta con join
-        $productos = DB::table('productos as pro')
-        
-        //select sirve como atributo para visualizar unicamente los atributos que yo desee que aparezcan
-        ->select('pro.id','pro.nombreProducto','pro.fotoProducto', 'pro.precioProducto')
-        
-        //nombre de la tabla ;  atributo de la tabla productos; que sea igual; al id dela tabla categorias
-        ->get(); 
-                //procedemos a enviar esa informacion a la vista
-                return view('inventario.productos',['productos'=>$productos]);
-        
-        }
+  
 
-        public function detalle($id){
-                //este metodo permite buscar el atributo por el identificador *findOrFail*
-                $producto = Producto::findOrFail($id);
-                
-                return view('inventario.productos.detalle',compact('producto'));
-            }    
+        
 }
