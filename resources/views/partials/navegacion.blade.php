@@ -21,7 +21,7 @@
         </li>
 
         <li>
-          <a href="{{ url('/escrito/problema') }}"><i class="fa fa-bars"></i><span>Problema</span></a>
+          <a href="{{ url('/escrito/problema') }}"><i class="fa fa-bars"></i><span>Planteamiento del problema</span></a>
         </li>
 
         <li>

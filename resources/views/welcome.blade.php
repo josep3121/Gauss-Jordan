@@ -3,7 +3,7 @@
 
 <body>
     <div class="container" align="center">
-        <h1 style="color: black"> SOLUCIÓN DE ECUACIONES LINEALES DE GAUSS JORDÁN HASTA 10*10 </h1>
+        <h1 style="color: black"> IMPLEMENTACIÓN DE UNA CALCULADORA ON LINE PARA SOLUCIÓN DE ECUACIONES LINEALES POR EL MÉTODO DE GAUSS JORDÁN HASTA 10*10 </h1>
 
         <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
             <br>
@@ -19,7 +19,7 @@
                                 </p>
 
                                 <p class="pservices text-justify">
-                                    Este proyecto se realiza con el objetivo de crear una aplicación web en modo local, la cual pueda resolver fácilmente sistemas de ecuaciones usando el método de Gauss Jordán. Para ello, en primer lugar, fue necesario instalar el paquete de software libre XAMPP el cual actuara de servidor web en nuestra red local, a continuación, fue necesario instalar Laravel el cual es uno de los frameworks de código abierto más fáciles de asimilar para PHP. Es simple, muy potente y tiene una interfaz elegante y divertida de usar, posteriormente, se debe instalar composer el cual es un requisito casi imprescindible ya que es un manejador de paquetes para PHP que proporciona un estándar para administrar, descargar e instalar dependencias y librerías. Luego, se tomó el editor de programación Microsoft Visual Studio Code, el cual es un editor de código fuente gratuito y de código abierto desarrollado por Microsoft para Windows, Linux y MacOS. Incluye control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.
+                                    Este proyecto se realiza con el objetivo de crear una calculadora on line en modo local, la cual pueda resolver fácilmente sistemas de ecuaciones usando el método de Gauss Jordán. Para ello, en primer lugar, fue necesario instalar el paquete de software libre XAMPP el cual actuara de servidor web en nuestra red local, a continuación, fue necesario instalar Laravel el cual es uno de los frameworks de código abierto más fáciles de asimilar para PHP. Es simple, muy potente y tiene una interfaz elegante y divertida de usar, posteriormente, se debe instalar composer el cual es un requisito casi imprescindible ya que es un manejador de paquetes para PHP que proporciona un estándar para administrar, descargar e instalar dependencias y librerías. Luego, se tomó el editor de programación Microsoft Visual Studio Code, el cual es un editor de código fuente gratuito y de código abierto desarrollado por Microsoft para Windows, Linux y MacOS. Incluye control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código. 
                                 </p>
                             </div>
                         </div>
