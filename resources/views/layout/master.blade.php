@@ -61,10 +61,6 @@
                         <li>
                             <a>Elaborado por: </a><br>
                             <a>José Braulio Ayala Benavides</a><br>
-                            <a>Leidy Viviana Burbano Prado</a><br>
-                            <a>Sebastian David Chaves Garreta</a><br>
-                            <a>Dánica María López Ruano</a><br>
-                            <a>Sebastián Alexander Vallejo Coral</a>
                         </li>
                         <br>
                     </ul>
